@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: cursive;
+}
+::-webkit-scrollbar{
+    height: 0.3rem;
+    width: 1rem;
+}
+.header{
+    height: 90px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(247, 247, 248);
+}
+section{
+
+    width: 100%;
+    
+}
+.header .master{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+.header .master .logo img{
+    height: 3rem;
+    margin-left: 5px;
+}
+.header .master .navbar a{
+    margin-left: 3rem;
+    color: black;
+    font-size: 20px;
+}
+.Home{
+    min-height: 37rem;
+    background-image: url(image/sec1/home-bg.jpg);
+    background-size: cover;
+
+}
+
+.lady h1{
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 13rem;
+    margin-left: 13rem;
+}
+
+.lady p{
+    height: 50px;
+    width: 400px;
+    display: block;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    color: black;
+    font-size: larger;
+    line-height: 2rem;
+    
+}
+.lady button{
+    height: 50px;
+    width: 130px;
+    display: block;
+    margin-top: 7rem;
+    margin-left: 13rem;
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    background-color: burlywood;
+}
+.About{
+    min-height: 37rem;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    flex-wrap: wrap;
+
+}
+
+.About .phone img{
+    height: 130%;
+    width: 130%;   
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+.About .boy{
+    align-items: center;
+    text-align: center;
+}
+.About .boy h1{
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+.About .boy p{
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+.About .boy button{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    padding: 1rem;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.About .boy button:hover{
+    color: burlywood;
+}
+
+.Facility .side{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.Facility .side img{
+    height: 2.5rem;
+    margin-top: 7rem;
+}
+.Facility .side h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.Facility .win{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.Facility .win .hole{
+    text-align: center;
+}
+.Facility .win img{
+    margin-top: 2rem;
+    height: 5rem;
+}
+.Facility .win .hole h1{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: black;
+}
+.Facility .win .hole p{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: black;
+}
+
+.Menu .left{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.Menu .left img{
+    margin-top: 5.9rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+.Menu .left h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.Menu .box-container{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+}
+.Menu .box-container .box{
+    text-align: center;
+}
+.Menu .box-container .box img{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 1rem;
+}
+.Menu .box-container .box h1{
+    font-size: 20px;
+    color: black;
+}
+.Menu .area{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.Menu .area .list{
+    text-align: center;
+}
+.Menu .area .list img{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 0rem;
+}
+.Menu .area .list h1{
+    font-size: 20px;
+    color: black;
+}
+
+.Gallery .note{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.Gallery .note img{
+    margin-top: 6rem;
+    height: 3rem;
+    
+}
+.Gallery .note h1{
+    font-size: 2rem;
+    color: black;
+}
+.pencil li{
+    height: 18%;
+    width: 18%;
+    display: inline-flex;
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
+.Gallery .pencil .m1{
+    height: 92%;
+    width: 92%;
+}
+.Gallery .pencil .m1 img{
+    height: 100%;
+    width: 100%;
+}
+.pencil img{
+    width: 100%;
+    height: 100%;
+}
+.rubber li{
+    height: 18%;
+    width: 18%;
+    display: inline-flex;
+    margin-top: 3rem;
+    margin-left: 9rem;
+}
+.rubber img{
+    width: 100%;
+    height: 100%;
+}
+
+.Contact .dog{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.Contact .dog img{
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+.Contact .dog h1{
+    font-size: 3rem;
+    color: black;
+}
+.Contact .pubg{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.Contact .pubg .jeep img{
+    width: 20rem;
+    height: 20rem;
+}
+.Contact .pubg form .box{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    margin: 1rem 0;
+    margin-left: 15%;
+    border: 2px solid black;
+}
+.Contact .pubg form h1{
+    font-size: 30px;
+    margin-bottom: 1rem;
+    margin-left: 45%;
+    color: black;
+    text-transform: uppercase;
+}
+.Contact .pubg form .color{
+    margin-left: 50%;
+    padding: 5px;
+}
+.Blog .boom{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+
+}
+
+.Blog .boom .love i{
+    background-color: chocolate;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 8rem;
+    font-size: 2.5rem;
+    margin-top: 13rem;
+}
+
+.Blog .boom .love h1{
+    margin-bottom: 1rem;
+    font-size: 20px;
+    color: black;
+}
+.Blog .boom .love .sri{
+    width: 10rem;
+}
+.Blog .boom .love .sri-1{
+    width: 8rem;
+}
+.line{
+    border: 5px solid black;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    width: 80%;
+}
+.Blog .mail{
+    margin-left: 18rem;
+    border-radius: 10px;
+    font-size: 20px;
+}
